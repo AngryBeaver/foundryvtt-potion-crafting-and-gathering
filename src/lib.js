@@ -184,8 +184,6 @@ export function convertJsonRecipeGathererToJsonRecipeBeaverCrafting({
     required: {},
     instruction: description,
   };
-  //translate ingredients
-  //translate recipes
   //not sure which is or and which is and on mastercrafted:
   ingredients.forEach((ingridient, index) => {
     recipeData.input[index] = {};
